@@ -1,0 +1,39 @@
+.section__text {
+    margin-top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: $roboto;
+    font-weight: lighter;
+    font-size: $medium;
+}
+
+.section__buttons {
+    color: white;
+    font-family: $roboto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.section__thumbnail {
+    border-radius: 50%;
+    width: 75%;
+}
+
+.section__title-naomi {
+    font-family: $playfair;
+    font-style: italic;
+    margin-top: 25%;
+}
+
+.section__info-naomi {
+    color: #e56353;
+    font-family: $roboto;
+    font-weight: lighter;
+}
+
+.section__text-naomi {
+    font-family: $roboto;
+    font-weight: lighter;
+    margin-top: 15%;
+}
+

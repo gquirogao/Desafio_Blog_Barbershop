@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>BarberShop</title>
+</head>
+<body>
+<!--Crear un container para todo el contenido-->  
+    <div class="contenedor"> 
+<!--Crear el NAV-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <!--colocar el logo-->
+      <a class="navbar-brand" href="#"><img class="navbar__logo" src="assets/img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto navbar__items">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" >Nosotros <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Horas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+<!--Fin del NAV-->
+
+<!--Definir el header-->
+    <header class="header">
+      <p class="header__text">5 formas de cuidar tu corte de cabello</p>
+    </header>
+<!--Section texto-->
+    <section class="section">
+      <div class="section__text">
+        <p class="section__date">12 de abril de 2018</p>
+        <p class="section__paragraphs">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iure quasi odio ratione nemo vitae iusto dolore magnam, temporibus consequuntur praesentium repudiandae id doloremque debitis quidem et accusamus placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus officia voluptate quidem sapiente rem illum explicabo nostrum quod vitae itaque consectetur eligendi incidunt eaque, quos dolores. Dignissimos, numquam deserunt?</p>
+          <p class="section__paragraphs">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iure quasi odio ratione nemo vitae iusto dolore magnam, temporibus consequuntur praesentium repudiandae id doloremque debitis quidem et accusamus placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus officia voluptate quidem sapiente rem illum explicabo nostrum quod vitae itaque consectetur eligendi incidunt eaque, quos dolores. Dignissimos, numquam deserunt?</p>
+          <p class="section__paragraphs">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iure quasi odio ratione nemo vitae iusto dolore magnam, temporibus consequuntur praesentium repudiandae id doloremque debitis quidem et accusamus placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus officia voluptate quidem sapiente rem illum explicabo nostrum quod vitae itaque consectetur eligendi incidunt eaque, quos dolores. Dignissimos, numquam deserunt?</p>
+          <p class="section__paragraphs">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iure quasi odio ratione nemo vitae iusto dolore magnam, temporibus consequuntur praesentium repudiandae id doloremque debitis quidem et accusamus placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus officia voluptate quidem sapiente rem illum explicabo nostrum quod vitae itaque consectetur eligendi incidunt eaque, quos dolores. Dignissimos, numquam deserunt?</p>
+          <p class="section__paragraphs">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iure quasi odio ratione nemo vitae iusto dolore magnam, temporibus consequuntur praesentium repudiandae <span style="color:#e56353;">doloremque debitis quidem et accusamus placeat.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus officia voluptate quidem sapiente rem illum explicabo nostrum quod vitae itaque consectetur eligendi incidunt eaque, quos dolores. Dignissimos, numquam deserunt?</p>
+
+          <!--Botones-->
+          <button type="button" class="btn btn-secondary section__buttons rounded-pill">Compartir</button>
+          <button type="button" class="btn btn-secondary section__buttons rounded-pill">Comentar en Twitter</button>   
+      </div>
+    </section>
+    <hr>
+<!--Section foto Naomi + info-->
+    <!--GRILLA DE 3-->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="assets/img/naomi-thai.png" alt="" class="section__thumbnail">
+          </div>
+          <div class="col-sm">
+            <h1 class="section__title-naomi">Naomi Thai</h1>
+           <a class="section__info-naomi" style="color: #e56353; text-decoration: none;" href="">@Naothai <br>depelos.com</a>
+          </div>
+          <div class="col-sm-6">
+            <p class="section__text-naomi">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quis repellat aliquam esse at illum soluta magni libero! Accusantium nobis hic quos nulla corporis laborum nostrum iure commodi neque non.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!--Section Paginator(sacar de bootstrap)-->
+    <section class="section">
+      <div class="section__pagination">
+      <nav aria-label="..." class="section__pagination-item">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true" style="border-top-left-radius: 1.25rem; border-bottom-left-radius: 1.25rem; color:#121619;">Anterior</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#" style="color: #121619;">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#" style="color: #121619; background-color: #6c6e70; border-color: #6c6e70;">2<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#" style="color: #121619;">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" style="border-top-right-radius: 1.25rem; border-bottom-right-radius: 1.25rem; color: #121619;">Siguiente</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+    </section>
+<!--Footer-->
+    <footer class="footer">
+      <img src="assets/img/logo.png" class="footer__logo" alt="">
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
